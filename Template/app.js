@@ -2,13 +2,13 @@
     
     //UNITY STUFF
     var buildUrl = "Build";
-    var loaderUrl = buildUrl + "/TestForMobile.loader.js";
+    var loaderUrl = buildUrl + "/WebGLTestForMobile.loader.js";
     var config = {
-        dataUrl: buildUrl + "/TestForMobile.data",
-        frameworkUrl: buildUrl + "/TestForMobile.framework.js",
-        codeUrl: buildUrl + "/TestForMobile.wasm",
+        dataUrl: buildUrl + "/WebGLTestForMobile.data",
+        frameworkUrl: buildUrl + "/WebGLTestForMobile.framework.js",
+        codeUrl: buildUrl + "/WebGLTestForMobile.wasm",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
+        companyName: "DO2",
         productName: "TestForMobileWebGL",
         productVersion: "0.1",
     };
